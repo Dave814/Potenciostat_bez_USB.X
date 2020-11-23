@@ -1,0 +1,732 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1459 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memcpy.c
+[v _memcpy memcpy `(*.1v  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\altofl.c
+[v ___altofl __altofl `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\attofl.c
+[v ___attofl __attofl `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"64 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\double.c
+[v ___flpack __flpack `(d  1 e 4 0 ]
+"89 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fladd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"51 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\flmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"17 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\flsub.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"67 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 0 0 ]
+"95
+[v _EUSART_is_tx_ready EUSART_is_tx_ready `(uc  1 e 1 0 ]
+"100
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(uc  1 e 1 0 ]
+"105
+[v _EUSART_is_tx_done EUSART_is_tx_done `(uc  1 e 1 0 ]
+"75 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\eusart.h
+"76
+[s S599 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"109 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\eusart.c
+[u S604 . 1 `S599 1 . 1 0 `uc 1 status 1 0 ]
+[v _EUSART_get_last_status EUSART_get_last_status `(S604  1 e 1 0 ]
+"114
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"134
+[v _EUSART_Write EUSART_Write `(v  1 e 0 0 ]
+"143
+[v _USART_Send USART_Send `(v  1 e 0 0 ]
+"159
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 0 0 ]
+"161
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 0 0 ]
+"169
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 0 0 ]
+"172
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 0 0 ]
+"176
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 0 0 ]
+"180
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 0 0 ]
+"18 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\heflash/Flash.c
+[v _FLASH_readConfig FLASH_readConfig `(ui  1 e 2 0 ]
+"32
+[v _FLASH_read FLASH_read `(ui  1 e 2 0 ]
+"46
+[v _FLASH_readBlock FLASH_readBlock `(v  1 e 0 0 ]
+"59
+[v __unlock _unlock `(v  1 e 0 0 ]
+"76
+[v _FLASH_write FLASH_write `(v  1 e 0 0 ]
+"100
+[v _FLASH_erase FLASH_erase `(v  1 e 0 0 ]
+"18 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\heflash/HEFlash.c
+[v _HEFLASH_writeBlock HEFLASH_writeBlock `(uc  1 e 1 0 ]
+"50
+[v _HEFLASH_readBlock HEFLASH_readBlock `(uc  1 e 1 0 ]
+"71
+[v _HEFLASH_readByte HEFLASH_readByte `(uc  1 e 1 0 ]
+"77 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _InitializeIO InitializeIO `(v  1 e 0 0 ]
+"109
+[v _command_unknown command_unknown `(v  1 e 0 0 ]
+"117
+[v _send_OK send_OK `(v  1 e 0 0 ]
+"124
+[v _send_WAIT send_WAIT `(v  1 e 0 0 ]
+"131
+[v _command_cell_on command_cell_on `(v  1 e 0 0 ]
+"137
+[v _command_cell_off command_cell_off `(v  1 e 0 0 ]
+"143
+[v _command_mode_potentiostatic command_mode_potentiostatic `(v  1 e 0 0 ]
+"149
+[v _command_mode_galvanostatic command_mode_galvanostatic `(v  1 e 0 0 ]
+"155
+[v _command_range1 command_range1 `(v  1 e 0 0 ]
+"164
+[v _command_range2 command_range2 `(v  1 e 0 0 ]
+"173
+[v _command_range3 command_range3 `(v  1 e 0 0 ]
+"182
+[v _command_set_dac command_set_dac `(v  1 e 0 0 ]
+"188
+[v _command_calibrate_dac command_calibrate_dac `(v  1 e 0 0 ]
+"199
+[v _command_read_adc command_read_adc `(v  1 e 0 0 ]
+"221
+[v _command_read_offset command_read_offset `(v  1 e 0 0 ]
+"228
+[v _command_save_offset command_save_offset `(v  1 e 0 0 ]
+"234
+[v _command_read_shuntcalibration command_read_shuntcalibration `(v  1 e 0 0 ]
+"241
+[v _command_save_shuntcalibration command_save_shuntcalibration `(v  1 e 0 0 ]
+"247
+[v _command_read_dac_cal command_read_dac_cal `(v  1 e 0 0 ]
+"254
+[v _command_set_dac_cal command_set_dac_cal `(v  1 e 0 0 ]
+"261
+[v _interpret_command interpret_command `(v  1 e 0 0 ]
+"300
+[v _main main `(i  1 e 2 0 ]
+"348
+[v _isr isr `II(v  1 e 0 0 ]
+"6 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\spi/spi_software.c
+[v _InitializeSPI InitializeSPI `(v  1 e 0 0 ]
+"22
+[v _MCP3550_Read MCP3550_Read `(uc  1 e 1 0 ]
+"45
+[v _DAC1220_Reset DAC1220_Reset `(v  1 e 0 0 ]
+"65
+[v _DAC1220_Write2Bytes DAC1220_Write2Bytes `(v  1 e 0 0 ]
+"78
+[v _DAC1220_Write3Bytes DAC1220_Write3Bytes `(v  1 e 0 0 ]
+"92
+[v _DAC1220_Read2Bytes DAC1220_Read2Bytes `(v  1 e 0 0 ]
+"106
+[v _DAC1220_Read3Bytes DAC1220_Read3Bytes `(v  1 e 0 0 ]
+"121
+[v _DAC1220_Init DAC1220_Init `(v  1 e 0 0 ]
+"127
+[v _DAC1220_SelfCal DAC1220_SelfCal `(v  1 e 0 0 ]
+"132
+[v _Read2BytesSPI Read2BytesSPI `(v  1 e 0 0 ]
+"151
+[v _ReadByteSPI ReadByteSPI `(uc  1 e 1 0 ]
+"166
+[v _WriteByteSPI WriteByteSPI `(v  1 e 0 0 ]
+"177
+[v _ClockPulse ClockPulse `(v  1 e 0 0 ]
+"186
+[v _SPIDelay SPIDelay `(v  1 e 0 0 ]
+[s S44 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"355 C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16f1459.h
+[s S53 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S58 . 1 `S44 1 . 1 0 `S53 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES58  1 e 1 @11 ]
+[s S136 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"467
+[u S142 . 1 `S136 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES142  1 e 1 @13 ]
+[s S151 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"508
+[u S160 . 1 `S151 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES160  1 e 1 @14 ]
+"569
+[v _PIR1bits PIR1bits `VES160  1 e 1 @17 ]
+[s S380 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"982
+[u S384 . 1 `S380 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES384  1 e 1 @140 ]
+"1010
+[v _TRISBbits TRISBbits `VES142  1 e 1 @141 ]
+"1051
+[v _TRISCbits TRISCbits `VES160  1 e 1 @142 ]
+[s S348 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IRCF 1 0 :4:2 
+`uc 1 SPLLMULT 1 0 :1:6 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"1482
+[s S353 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 IRCF0 1 0 :1:2 
+`uc 1 IRCF1 1 0 :1:3 
+`uc 1 IRCF2 1 0 :1:4 
+`uc 1 IRCF3 1 0 :1:5 
+]
+[u S360 . 1 `S348 1 . 1 0 `S353 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES360  1 e 1 @153 ]
+"1827
+[v _LATAbits LATAbits `VES384  1 e 1 @268 ]
+"1855
+[v _LATBbits LATBbits `VES142  1 e 1 @269 ]
+"1896
+[v _LATCbits LATCbits `VES160  1 e 1 @270 ]
+"2421
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2455
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2483
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2518
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2576
+[v _PMADR PMADR `VEus  1 e 2 @401 ]
+"2620
+[v _PMDAT PMDAT `VEus  1 e 2 @403 ]
+[s S20 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+]
+"2680
+[u S28 . 1 `S20 1 . 1 0 ]
+[v _PMCON1bits PMCON1bits `VES28  1 e 1 @405 ]
+"2771
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2790
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"2815
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2834
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"2853
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"2870
+[v _RCSTAbits RCSTAbits `VES160  1 e 1 @413 ]
+"2914
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"2931
+[v _TXSTAbits TXSTAbits `VES160  1 e 1 @414 ]
+"2975
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"4218
+[v _ACTCONbits ACTCONbits `VES160  1 e 1 @923 ]
+[s S599 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\eusart.c
+[u S604 . 1 `S599 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES604  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.27(v  1 e 1 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.27(v  1 e 1 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.27(v  1 e 1 0 ]
+"69 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _received_data received_data `*.24DCCuc  1 s 1 received_data ]
+"70
+[v _received_data_length received_data_length `uc  1 s 1 received_data_length ]
+"71
+[v _transmit_data transmit_data `*.1uc  1 s 1 transmit_data ]
+"72
+[v _transmit_data_length transmit_data_length `uc  1 s 1 transmit_data_length ]
+"73
+[v _heflashbuffer heflashbuffer `[32]uc  1 s 32 heflashbuffer ]
+"74
+[v _uart_command uart_command `[20]uc  1 s 20 uart_command ]
+"300
+[v _main main `(i  1 e 2 0 ]
+{
+"332
+[v main@i i `uc  1 a 1 15 ]
+"333
+[v main@c c `uc  1 a 1 14 ]
+"345
+} 0
+"114 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\eusart.c
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+{
+"130
+} 0
+"100
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(uc  1 e 1 0 ]
+{
+"102
+} 0
+"261 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _interpret_command interpret_command `(v  1 e 0 0 ]
+{
+"297
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+[v strncmp@s1 s1 `*.26DCCuc  1 p 2 1 ]
+[v strncmp@s2 s2 `*.24DCCuc  1 p 1 3 ]
+[v strncmp@len len `ui  1 p 2 4 ]
+"14
+} 0
+"254 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _command_set_dac_cal command_set_dac_cal `(v  1 e 0 0 ]
+{
+[v command_set_dac_cal@dac_cal_data dac_cal_data `*.24DCCuc  1 a 1 6 ]
+[v command_set_dac_cal@dac_cal_data dac_cal_data `*.24DCCuc  1 a 1 6 ]
+"259
+} 0
+"247
+[v _command_read_dac_cal command_read_dac_cal `(v  1 e 0 0 ]
+{
+"251
+} 0
+"241
+[v _command_save_shuntcalibration command_save_shuntcalibration `(v  1 e 0 0 ]
+{
+[v command_save_shuntcalibration@shuntcalibration_data shuntcalibration_data `*.24DCCuc  1 a 1 4 ]
+[v command_save_shuntcalibration@shuntcalibration_data shuntcalibration_data `*.24DCCuc  1 a 1 4 ]
+"244
+} 0
+"234
+[v _command_read_shuntcalibration command_read_shuntcalibration `(v  1 e 0 0 ]
+{
+"238
+} 0
+"228
+[v _command_save_offset command_save_offset `(v  1 e 0 0 ]
+{
+[v command_save_offset@offset_data offset_data `*.24DCCuc  1 a 1 4 ]
+[v command_save_offset@offset_data offset_data `*.24DCCuc  1 a 1 4 ]
+"231
+} 0
+"221
+[v _command_read_offset command_read_offset `(v  1 e 0 0 ]
+{
+"225
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memcpy.c
+[v _memcpy memcpy `(*.1v  1 e 1 0 ]
+{
+[v memcpy@d1 d1 `*.1v  1 a 1 5 ]
+"20
+[v memcpy@s s `*.4DCCuc  1 a 1 7 ]
+"18
+[v memcpy@d d `*.1uc  1 a 1 6 ]
+"13
+[v memcpy@d1 d1 `*.1v  1 a 1 5 ]
+[v memcpy@s1 s1 `*.4DCCv  1 p 1 1 ]
+[v memcpy@n n `ui  1 p 2 2 ]
+"32
+} 0
+"199 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _command_read_adc command_read_adc `(v  1 e 0 0 ]
+{
+"208
+[v command_read_adc@i i `uc  1 a 1 10 ]
+"200
+[v command_read_adc@adc_data adc_data `[6]uc  1 a 6 4 ]
+"218
+} 0
+"124
+[v _send_WAIT send_WAIT `(v  1 e 0 0 ]
+{
+"125
+[v send_WAIT@reply reply `*.24DCCuc  1 a 1 2 ]
+"128
+} 0
+"22 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\spi/spi_software.c
+[v _MCP3550_Read MCP3550_Read `(uc  1 e 1 0 ]
+{
+[v MCP3550_Read@adc_data adc_data `*.4uc  1 a 1 8 ]
+"23
+[v MCP3550_Read@data_ready data_ready `uc  1 a 1 7 ]
+"22
+[v MCP3550_Read@adc_data adc_data `*.4uc  1 a 1 8 ]
+"42
+} 0
+"132
+[v _Read2BytesSPI Read2BytesSPI `(v  1 e 0 0 ]
+{
+[v Read2BytesSPI@data1_byte data1_byte `*.4uc  1 a 1 5 ]
+"135
+[v Read2BytesSPI@bit_counter bit_counter `uc  1 a 1 4 ]
+"132
+[v Read2BytesSPI@data1_byte data1_byte `*.4uc  1 a 1 5 ]
+[v Read2BytesSPI@data2_byte data2_byte `*.4uc  1 p 1 2 ]
+"148
+} 0
+"188 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _command_calibrate_dac command_calibrate_dac `(v  1 e 0 0 ]
+{
+"191
+[v command_calibrate_dac@data data `[6]uc  1 a 6 6 ]
+"196
+} 0
+"127 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\spi/spi_software.c
+[v _DAC1220_SelfCal DAC1220_SelfCal `(v  1 e 0 0 ]
+{
+"129
+} 0
+"106
+[v _DAC1220_Read3Bytes DAC1220_Read3Bytes `(v  1 e 0 0 ]
+{
+[v DAC1220_Read3Bytes@address address `DCCuc  1 a 1 9 ]
+[v DAC1220_Read3Bytes@address address `DCCuc  1 a 1 9 ]
+[v DAC1220_Read3Bytes@byte1 byte1 `*.4uc  1 p 1 5 ]
+[v DAC1220_Read3Bytes@byte2 byte2 `*.4uc  1 p 1 6 ]
+[v DAC1220_Read3Bytes@byte3 byte3 `*.4uc  1 p 1 7 ]
+"118
+} 0
+"151
+[v _ReadByteSPI ReadByteSPI `(uc  1 e 1 0 ]
+{
+"152
+[v ReadByteSPI@data_byte data_byte `uc  1 a 1 4 ]
+"153
+[v ReadByteSPI@bit_counter bit_counter `uc  1 a 1 3 ]
+"163
+} 0
+"18 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\heflash/HEFlash.c
+[v _HEFLASH_writeBlock HEFLASH_writeBlock `(uc  1 e 1 0 ]
+{
+[v HEFLASH_writeBlock@radd radd `uc  1 a 1 0 ]
+"20
+[v HEFLASH_writeBlock@add add `ui  1 a 2 1 ]
+"18
+[v HEFLASH_writeBlock@radd radd `uc  1 a 1 0 ]
+[v HEFLASH_writeBlock@data data `*.26DCCuc  1 p 2 7 ]
+[v HEFLASH_writeBlock@count count `uc  1 p 1 9 ]
+"46
+} 0
+"100 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\heflash/Flash.c
+[v _FLASH_erase FLASH_erase `(v  1 e 0 0 ]
+{
+"102
+[v FLASH_erase@temp temp `uc  1 a 1 3 ]
+"100
+[v FLASH_erase@address address `ui  1 p 2 1 ]
+"120
+} 0
+"76
+[v _FLASH_write FLASH_write `(v  1 e 0 0 ]
+{
+"78
+[v FLASH_write@temp temp `uc  1 a 1 6 ]
+"76
+[v FLASH_write@address address `ui  1 p 2 1 ]
+[v FLASH_write@data data `ui  1 p 2 3 ]
+[v FLASH_write@latch latch `uc  1 p 1 5 ]
+"96
+} 0
+"59
+[v __unlock _unlock `(v  1 e 0 0 ]
+{
+"72
+} 0
+"182 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _command_set_dac command_set_dac `(v  1 e 0 0 ]
+{
+[v command_set_dac@dac_data dac_data `*.24DCCuc  1 a 1 6 ]
+[v command_set_dac@dac_data dac_data `*.24DCCuc  1 a 1 6 ]
+"185
+} 0
+"173
+[v _command_range3 command_range3 `(v  1 e 0 0 ]
+{
+"179
+} 0
+"164
+[v _command_range2 command_range2 `(v  1 e 0 0 ]
+{
+"170
+} 0
+"155
+[v _command_range1 command_range1 `(v  1 e 0 0 ]
+{
+"161
+} 0
+"149
+[v _command_mode_galvanostatic command_mode_galvanostatic `(v  1 e 0 0 ]
+{
+"152
+} 0
+"143
+[v _command_mode_potentiostatic command_mode_potentiostatic `(v  1 e 0 0 ]
+{
+"146
+} 0
+"137
+[v _command_cell_off command_cell_off `(v  1 e 0 0 ]
+{
+"140
+} 0
+"131
+[v _command_cell_on command_cell_on `(v  1 e 0 0 ]
+{
+"134
+} 0
+"117
+[v _send_OK send_OK `(v  1 e 0 0 ]
+{
+"118
+[v send_OK@reply reply `*.24DCCuc  1 a 1 2 ]
+"121
+} 0
+"109
+[v _command_unknown command_unknown `(v  1 e 0 0 ]
+{
+"110
+[v command_unknown@reply reply `*.24DCCuc  1 a 1 2 ]
+"114
+} 0
+"77
+[v _InitializeIO InitializeIO `(v  1 e 0 0 ]
+{
+"103
+[v InitializeIO@startReply startReply `*.24DCCuc  1 a 1 11 ]
+"105
+} 0
+"143 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\eusart.c
+[v _USART_Send USART_Send `(v  1 e 0 0 ]
+{
+[v USART_Send@dataToSend dataToSend `*.24DCCuc  1 a 1 0 ]
+"144
+[v USART_Send@i i `uc  1 a 1 1 ]
+"143
+[v USART_Send@dataToSend dataToSend `*.24DCCuc  1 a 1 0 ]
+[v USART_Send@dataLength dataLength `uc  1 p 1 9 ]
+"154
+} 0
+"134
+[v _EUSART_Write EUSART_Write `(v  1 e 0 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 1 ]
+[v EUSART_Write@txData txData `uc  1 a 1 1 ]
+"140
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.24DCCuc  1 a 1 7 ]
+"6
+[v strlen@cp cp `*.24DCCuc  1 a 1 8 ]
+"5
+[v strlen@s s `*.24DCCuc  1 a 1 7 ]
+"13
+} 0
+"67 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 0 0 ]
+{
+"92
+} 0
+"180
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 0 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.27(v  1 a 1 2 ]
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.27(v  1 a 1 2 ]
+"182
+} 0
+"176
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 0 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.27(v  1 a 1 2 ]
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.27(v  1 a 1 2 ]
+"178
+} 0
+"172
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 0 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.27(v  1 a 1 2 ]
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.27(v  1 a 1 2 ]
+"174
+} 0
+"121 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\spi/spi_software.c
+[v _DAC1220_Init DAC1220_Init `(v  1 e 0 0 ]
+{
+"124
+} 0
+"78
+[v _DAC1220_Write3Bytes DAC1220_Write3Bytes `(v  1 e 0 0 ]
+{
+[v DAC1220_Write3Bytes@address address `DCCuc  1 a 1 8 ]
+[v DAC1220_Write3Bytes@address address `DCCuc  1 a 1 8 ]
+[v DAC1220_Write3Bytes@byte1 byte1 `DCCuc  1 p 1 5 ]
+[v DAC1220_Write3Bytes@byte2 byte2 `DCCuc  1 p 1 6 ]
+[v DAC1220_Write3Bytes@byte3 byte3 `DCCuc  1 p 1 7 ]
+"89
+} 0
+"65
+[v _DAC1220_Write2Bytes DAC1220_Write2Bytes `(v  1 e 0 0 ]
+{
+[v DAC1220_Write2Bytes@address address `DCCuc  1 a 1 7 ]
+[v DAC1220_Write2Bytes@address address `DCCuc  1 a 1 7 ]
+[v DAC1220_Write2Bytes@byte1 byte1 `DCCuc  1 p 1 5 ]
+[v DAC1220_Write2Bytes@byte2 byte2 `DCCuc  1 p 1 6 ]
+"75
+} 0
+"166
+[v _WriteByteSPI WriteByteSPI `(v  1 e 0 0 ]
+{
+[v WriteByteSPI@data_byte data_byte `uc  1 a 1 3 ]
+"167
+[v WriteByteSPI@bit_counter bit_counter `uc  1 a 1 4 ]
+"166
+[v WriteByteSPI@data_byte data_byte `uc  1 a 1 3 ]
+"174
+} 0
+"177
+[v _ClockPulse ClockPulse `(v  1 e 0 0 ]
+{
+"183
+} 0
+"45
+[v _DAC1220_Reset DAC1220_Reset `(v  1 e 0 0 ]
+{
+"62
+} 0
+"186
+[v _SPIDelay SPIDelay `(v  1 e 0 0 ]
+{
+"188
+} 0
+"6
+[v _InitializeSPI InitializeSPI `(v  1 e 0 0 ]
+{
+"19
+} 0
+"50 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\heflash/HEFlash.c
+[v _HEFLASH_readBlock HEFLASH_readBlock `(uc  1 e 1 0 ]
+{
+[v HEFLASH_readBlock@buffer buffer `*.4uc  1 a 1 7 ]
+"52
+[v HEFLASH_readBlock@add add `ui  1 a 2 8 ]
+"50
+[v HEFLASH_readBlock@buffer buffer `*.4uc  1 a 1 7 ]
+[v HEFLASH_readBlock@radd radd `uc  1 p 1 3 ]
+[v HEFLASH_readBlock@count count `uc  1 p 1 4 ]
+"67
+} 0
+"32 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\heflash/Flash.c
+[v _FLASH_read FLASH_read `(ui  1 e 2 0 ]
+{
+[v FLASH_read@address address `ui  1 p 2 1 ]
+"42
+} 0
+"348 C:\Users\david\Desktop\Potenciostat\Projekt\Potenciostat_bez_USB.X\main.c
+[v _isr isr `II(v  1 e 0 0 ]
+{
+"350
+} 0
